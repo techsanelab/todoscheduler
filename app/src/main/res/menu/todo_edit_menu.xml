@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/alert"
+        android:icon="@drawable/ic_outline_notifications_24"
+        android:title="@string/alerts"
+        app:actionLayout="@layout/layout_alert_badge"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/state"
+        android:icon="@drawable/ic_twotone_state_24"
+        android:title="@string/state_panel"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/change_type"
+        android:icon="@drawable/ic_twotone_check_circle_outline_24"
+        android:title="@string/change_state"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_twotone_delete_outline_24"
+        android:title="@string/todo_delete"
+        app:showAsAction="always"/>
+
+
+
+</menu>

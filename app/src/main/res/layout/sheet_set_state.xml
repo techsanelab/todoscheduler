@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="@drawable/back_sheet"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/state_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/state_panel"
+        android:textSize="@dimen/titleSize" />
+
+    <RadioGroup
+        android:id="@+id/state_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/complete_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/card_complete"
+                android:buttonTint="@color/whiteTextColor"
+                android:text="@string/complete_state"
+                android:textColor="@color/whiteTextColor" />
+
+            <RadioButton
+                android:id="@+id/inprogress_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/card_inprogress"
+                android:buttonTint="@color/whiteTextColor"
+                android:text="@string/inprogress_state"
+                android:textColor="@color/whiteTextColor" />
+
+            <RadioButton
+                android:id="@+id/incomplete_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/card_incomplete"
+                android:buttonTint="@color/whiteTextColor"
+                android:text="@string/incomplete_state"
+                android:textColor="@color/whiteTextColor" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="titleSize">16sp</dimen>
+
+    <!-- Buttons Sizes -->
+    <dimen name="button_textsize">15sp</dimen>
+
+
+    <!-- todos card dimens -->
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="little_corner_radius">6dp</dimen>
+    <dimen name="state_width">4dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="accent">#7C4DFF</color>
+
+    <color name="colorPrimary">#7C4DFF</color>
+    <color name="colorPramaryLight">#FDF2FF</color>
+    <color name="colorPrimaryDark">#AFB42B</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="premiumColor">#021C37</color>
+    <color name="premiumColorDark">#000D1B</color>
+    <color name="premiumSecColor">#FFC927</color>
+    <color name="mapCircleColor">#6093FF16</color>
+    <color name="analysisColor">#FFB330</color>
+    <color name="analysisColorDark">#F89B00</color>
+
+    <color name="userTextColor">#212121</color>
+    <color name="textColor">#7A7A7A</color>
+    <color name="whiteTextColor">#FFF</color>
+    <color name="titleTextColor">#757575</color>
+    <color name="todoBackColor">#FFFFFC</color>
+
+    <!--Button Colors-->
+    <color name="whiteButtonColor">#FFF</color>
+
+    <!--Cards state colors-->
+    <color name="completeStartColor">#00EF8F</color>
+    <color name="completeEndColor">#2FFFCE</color>
+    <color name="incompleteEndColor">#FF4781</color>
+    <color name="inprogressStartColor">#C219FF</color>
+    <color name="inprogressEndColor">#D061FF</color>
+
+    <color name="spring">#00AA36</color>
+    <color name="summer">#A80446</color>
+    <color name="fall">#C57500</color>
+    <color name="winter">#03A9F4</color>
+
+</resources>

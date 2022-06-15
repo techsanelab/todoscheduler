@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_twotone_calendar_today_24"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/calendar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/habits"
+        android:icon="@drawable/ic_twotone_mood_24"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/habits"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/analysis"
+        android:icon="@drawable/ic_twotone_pie_chart_24"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/analysis"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/subscribe"
+        android:icon="@drawable/ic_twotone_stars_24"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/subscription"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/we"
+        android:icon="@drawable/ic_twotone_emoji_people_24"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/we"
+        app:showAsAction="always" />
+
+
+</menu>

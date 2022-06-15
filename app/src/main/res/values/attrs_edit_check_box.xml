@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="EditCheckBox">
+        <attr name="hint" format="string" />
+        <attr name="Dimension" format="dimension" />
+        <attr name="Color" format="color" />
+    </declare-styleable>
+</resources>

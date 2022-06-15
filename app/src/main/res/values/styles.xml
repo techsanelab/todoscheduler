@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.App.Msg</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MaterialAlertDialog.App.Btn</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MaterialAlertDialog.App.Btn</item>
+<!--        <item name="android:textDirection">rtl</item>-->
+<!--        <item name="android:direction">right_to_left</item>-->
+<!--        <item name="android:layoutDirection">rtl</item>-->
+    </style>
+
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/titleTextColor</item>
+
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Msg" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+
+    <style name="MaterialAlertDialog.App.Btn" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+</resources>

@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Done</string>
+
+    // Other
+    <string name="send">Send</string>
+
+    // Add Book
+    <string name="description">Description</string>
+
+    // Done
+    <string name="version">Version 1.0.2</string>
+
+    <string name="we">We</string>
+    <string name="calendar">Calendar</string>
+    <string name="todo_title">Title</string>
+    <string name="empty_todos">it seems we are free today</string>
+    <string name="event_time">Event time</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">Finish time</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="members">Members</string>
+    <string name="state_panel">Event state</string>
+    <string name="complete_state">Done</string>
+    <string name="incomplete_state">Not started yet</string>
+    <string name="inprogress_state">In progress</string>
+    <string name="change_state">Change state</string>
+    <string name="share_chooser">Share event</string>
+    <string name="todo_edit">Edit events</string>
+    <string name="todo_delete">Delete event</string>
+    <string name="todo_delete_toast">Event deleted</string>
+    <string name="habits">Habits</string>
+    <string name="plan_habit">Plan a habit for me</string>
+    <string name="good_comment">Good comments</string>
+    <string name="bad_comment">Bad comments</string>
+    <string name="got_it">Got it</string>
+    <string name="about_us">Done is an Android application for all kinds of scheduling at different times with the ability to find valuable times that you can fill with the right tasks and just leave it to Done.</string>
+
+    // Done - analysis
+    <string name="analysis">Analysis</string>
+    <string name="enough_data">There is not enough data to analysis.</string>
+    <string name="state_analysis">States</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="monthly">Monthly</string>
+    <string name="not_enough_data">Please create some events then analyse them ;)</string>
+
+    // Done - subs
+    <string name="subscription">Premium</string>
+    <string name="buy_from_play">Upgrade to Premium</string>
+    <string name="purchase_warning">Check your google play services.</string>
+    <string name="subs1">One month subscription</string>
+    <string name="subs2">Three months subscription</string>
+
+    // Done - premium features
+    <string name="f1">Unlimited calendar</string>
+    <string name="f2">Unlimited habit planning</string>
+    <string name="f3">No ads</string>
+    <string name="f4">Organize everything</string>
+
+    // Done - location
+    <string name="select_location">Select location</string>
+    <string name="success_geofence">Location added successfully</string>
+    <string name="failure_geofence">Something went wrong</string>
+    <string name="location_dia_title">Notification on location</string>
+    <string name="location_dia_text"><![CDATA[with this feature, you can set a location for your event and when you step into that area Done reminds your event like Grocery shop list, gym exercises & …]]></string>
+
+    // Done - Habits
+    <string name="procedure">How to do it?</string>
+    <string name="pro1">I set habits events</string>
+    <string name="pro2">I remind you to do them</string>
+    <string name="pro3">I motivate you</string>
+    <string name="pro4">You make them done</string>
+
+    // Done - parts of day
+    <string name="part_of_day">Which part of day?</string>
+    <string name="midnight">Midnight</string>
+    <string name="morning">Morning</string>
+    <string name="noon">Noon</string>
+    <string name="evening">Evening</string>
+    <string name="night">Night</string>
+
+    // Done - periods
+    <string name="everyday">Everyday</string>
+    <string name="every_two_days">Every two days</string>
+    <string name="every_week">Every week</string>
+    <string name="every_month">Every month</string>
+
+    // Done - warnings
+    <string name="dialog_warning">Warning</string>
+    <string name="another_time">Set another time</string>
+    <string name="force_push">No matter</string>
+    <string name="no_time_warning">Please set event time</string>
+    <string name="good_news">Good news</string>
+    <string name="attention">Attention</string>
+    <string name="submit_subs">If you like to done all of your tasks please check our Permium version.</string>
+
+    // Done - alerts
+    <string name="alerts">Alerts</string>
+    <string name="on_time">At event time</string>
+    <string name="min_15_before">15 minutes before</string>
+    <string name="min_30_before">30 minutes before</string>
+    <string name="one_day_before">One day before</string>
+    <string name="alert_content">Alert content</string>
+
+    // Done - email
+    <string name="success_mail">Feedback successfully sent.</string>
+
+    // Done - calendar showcases
+    <string name="dow_pager">Hello,\nWelcome to Done\nchoose a day and create some events for yourself.</string>
+    <string name="today_button">By pressing this button you\'ll go back to current day.</string>
+
+    // Done - habits
+    <string name="habits_sc">In this section you can choose a habit and schedule it automatically.</string>
+    <string name="habits_alerts">And by pressing this button you can set some notifications for your habit.</string>
+    <string name="habits_times">And set which part of a day you are more comfortable for doing this habit.</string>
+    <string name="habits_created">Habit scheduled at your free times.</string>
+    <string name="ok">OK</string>
+
+</resources>

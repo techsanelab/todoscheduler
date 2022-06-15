@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="@drawable/back_sheet"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/alerts"
+        android:textSize="@dimen/titleSize" />
+
+    <CheckBox
+        android:id="@+id/on_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/on_time" />
+
+    <CheckBox
+        android:id="@+id/min_15_before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/min_15_before" />
+
+    <CheckBox
+        android:id="@+id/min_30_before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/min_30_before" />
+
+    <CheckBox
+        android:id="@+id/one_day_before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/one_day_before" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_margin="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alert_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:visibility="gone"
+            android:hint="@string/alert_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
